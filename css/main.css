@@ -251,7 +251,9 @@ h2.welcome-title {
 }
 
 .project-item {
-    margin-bottom: 30px;
+	width: 350px;
+	height: 200px;
+    margin: 20px;
     position: relative;
     overflow: hidden;
     border: 3px solid #1a1c1f;
@@ -262,8 +264,8 @@ h2.welcome-title {
 
 .project-item img {
     width: 100%;
+    height: 100%;
     display: block;
-    
 }
 
 .overlay {
@@ -272,7 +274,7 @@ h2.welcome-title {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(128, 255, 0, .9);
+    background: rgba(128, 255, 0, .6);
     text-align: center;
     opacity: 0;
     -webkit-transition: all 200ms ease-in-out;
@@ -288,7 +290,7 @@ h2.welcome-title {
 }
 
 .overlay h4 {
-    font-size: 24px;
+    font-size: 18px;
     color: #0009EB;
     position: static;
     text-align: center;
@@ -296,7 +298,7 @@ h2.welcome-title {
 }
 
 .overlay p {
-	font-size: 18px;
+	font-size: 10px;
 	text-align: center;
 	color: #0009EB;
 	position: relative;
