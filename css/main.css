@@ -29,6 +29,9 @@ Portfolio Template
 }
 	
 body {
+	background-image: url("../dc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 	margin: 0;
     font-size: 15px;
     color: #80FF00;
@@ -38,9 +41,7 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-backface-visibility: hidden;
     overflow-x: hidden;
-    background-image: url("../dc.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 
 ol,ul {
@@ -253,7 +254,8 @@ h2.welcome-title {
 .project-item {
 	width: 350px;
 	height: 200px;
-    margin: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     position: relative;
     overflow: hidden;
     border: 3px solid #1a1c1f;
@@ -274,7 +276,7 @@ h2.welcome-title {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(128, 255, 0, .6);
+    background: rgba(128, 255, 0, .9);
     text-align: center;
     opacity: 0;
     -webkit-transition: all 200ms ease-in-out;
@@ -303,6 +305,12 @@ h2.welcome-title {
 	color: #0009EB;
 	position: relative;
 	
+}
+
+.overlay a {
+	font-size: 24px;
+	color: #0009EB;
+
 }
 
 .project-item:hover .overlay {
@@ -454,7 +462,7 @@ h2.welcome-title {
 }
 
 .contact-social li {
-    display: block;
+    display: inline-block;
     margin: 10px 10px;
     padding: 10px;
 }
@@ -462,11 +470,26 @@ h2.welcome-title {
 .contact-social li i {
     font-size: 25px;
     color: inherit;
-
 }
 
 .contact-holder {
-	background: rgba(70,73,79, 0.9);
+	margin-top: 100px;
+	background: rgba(70,73,79, 0.5);
+	width: auto;
+	display: inline;
+}
+
+.contact-holder img {
+	width: 17em;
+	height: 14em;
+	float: left;
+	padding: 1em;
+}
+
+.contact-holder p {
+	font-size: 12px;
+	padding: 5px;
+	margin-top: 45px;
 }
 
 .contact-form {
