@@ -40,8 +40,7 @@ body {
     line-height: 1.55;
     text-rendering: optimizeLegibility;
     -webkit-backface-visibility: hidden;
-    overflow-x: hidden;
-    
+    overflow-x: hidden; 
 }
 
 ol,ul {
@@ -203,6 +202,18 @@ ul.main-menu li a.active {
 	margin-right: 115px;
 }
 
+.home-projects img {
+	width: 19em;
+	height: 15em;
+	float: left;
+	padding: 1em;
+}
+
+.home-projects p {
+	font-size: 13px;
+	padding: 5px;
+}
+
 h2.welcome-title {
     font-weight: 100;
     color: #80FF00;
@@ -237,12 +248,12 @@ h2.welcome-title {
 }
 
 .project-title {
-    padding: 60px;
+    padding: 10px;
     background: rgba(70,73,79, 0.9);
-    margin-bottom: 20px;
-    -moz-animation-delay: 0.5s;
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
+    margin-top: 100px;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
     text-align: center;
 }
 
@@ -474,22 +485,6 @@ h2.welcome-title {
 
 .contact-holder {
 	margin-top: 100px;
-	background: rgba(70,73,79, 0.5);
-	width: auto;
-	display: inline;
-}
-
-.contact-holder img {
-	width: 17em;
-	height: 14em;
-	float: left;
-	padding: 1em;
-}
-
-.contact-holder p {
-	font-size: 12px;
-	padding: 5px;
-	margin-top: 45px;
 }
 
 .contact-form {
