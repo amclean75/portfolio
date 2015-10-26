@@ -32,6 +32,11 @@ body {
 	background-image: url("../dc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	margin: 0;
     font-size: 15px;
     color: #80FF00;
@@ -358,7 +363,6 @@ h2.welcome-title {
 }
 
 .projects-header {
-    margin-top: 30px;
     text-align: center;
     padding: 20px;
     background: rgba(70,73,79, 0.9);
