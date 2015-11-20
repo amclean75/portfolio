@@ -312,7 +312,14 @@ h2.welcome-title {
     color: #0009EB;
     position: static;
     text-align: center;
-    margin-top: 40px;
+}
+
+.less {
+	font-size: 18px;
+    color: #0009EB;
+    position: static;
+    text-align: center;
+	margin-top: 40px;
 }
 
 .overlay p {
