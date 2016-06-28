@@ -182,6 +182,11 @@ img {
     font-size: 18px;
 }
 
+@media(max-width:768px) {
+	.intro {
+		background-size: auto;
+	}
+}
 @media(min-width:768px) {
     .intro {
         height: 100%;
