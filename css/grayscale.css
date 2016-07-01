@@ -221,7 +221,7 @@ img {
 .btn-circle:focus {
     outline: 0;
     color: #fff;
-    background: rgba(255,255,255,.1);
+    background: rgba(66, 220, 163, 1);
 }
 
 .btn-circle i.animated {
