@@ -150,9 +150,9 @@ img {
 }
 
 .img-responsive {
-    margin-top: 50px;
     width: auto;
 	height: 100%;
+	max-width: 150% !important;
 }
 
 #circle-crop {
@@ -162,6 +162,8 @@ img {
 	height: 200px;
 	overflow: hidden;
 	border-radius: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px
 }
 
 .intro {
