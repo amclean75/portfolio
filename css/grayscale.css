@@ -151,7 +151,17 @@ img {
 
 .img-responsive {
     margin-top: 50px;
-    width: 220px;
+    width: auto;
+	height: 100%;
+}
+
+#circle-crop {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
 }
 
 .intro {
